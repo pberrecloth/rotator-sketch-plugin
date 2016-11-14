@@ -1,0 +1,45 @@
+{
+  "name": "Rotator",
+  "description": "Rotator the selected layer",
+  "author": "Peter Berrecloth",
+  "authorEmail": "peterberrecloth@gmail.com",
+  "homepage": "https://github.com/pberrecloth/fitter-sketch-plugin",
+  "version": 1.0,
+  "bundleVersion": 1.0,
+  "compatibleVersion": 41,
+  "identifier": "com.rotator.sketchplugin",
+  "commands": [
+    {
+      "name": "Rotate -90º Anti-Clockwise",
+      "script": "script.js",
+      "handler": "rotateNegativeNinety",
+      "identifier": "rotateNegativeNinety"
+    },
+    {
+      "name": "Rotate 90º Clockwise",
+      "script": "script.js",
+      "handler": "rotateNinety",
+      "identifier": "rotateNinety"
+    },
+    {
+      "name": "Rotate...",
+      "script": "script.js",
+      "handler": "rotateAmount",
+      "identifier": "rotateAmount"
+    },
+  ],
+  "menu" : {
+    "isRoot" : true,
+    "items" : [
+      {
+        "title" : "Rotator",
+        "items" : [
+          "rotateNinety",
+          "rotateNegativeNinety",
+          "-",
+          "rotateAmount",
+        ]
+      }
+    ]
+  }
+}
