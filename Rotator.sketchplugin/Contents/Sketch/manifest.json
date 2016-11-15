@@ -10,25 +10,37 @@
   "identifier": "com.rotator.sketchplugin",
   "commands": [
     {
-      "name": "Rotate -90º Anti-Clockwise",
+      "name": "Rotate -45º",
+      "script": "script.js",
+      "handler": "rotateMinusFortyFive",
+      "identifier": "rotateMinusFortyFive"
+    },
+    {
+      "name": "Rotate 45º",
+      "script": "script.js",
+      "handler": "rotateFortyFive",
+      "identifier": "rotateFortyFive"
+    },
+    {
+      "name": "Rotate -90º",
       "script": "script.js",
       "handler": "rotateMinusNinety",
       "identifier": "rotateMinusNinety"
     },
     {
-      "name": "Rotate 90º Clockwise",
+      "name": "Rotate 90º",
       "script": "script.js",
       "handler": "rotateNinety",
       "identifier": "rotateNinety"
     },
     {
-      "name": "Rotate -180º Anti-Clockwise",
+      "name": "Rotate -180º",
       "script": "script.js",
       "handler": "rotateMinusOneEighty",
       "identifier": "rotateMinusOneEighty"
     },
     {
-      "name": "Rotate 180º Clockwise",
+      "name": "Rotate 180º",
       "script": "script.js",
       "handler": "rotateOneEighty",
       "identifier": "rotateOneEighty"
@@ -46,6 +58,8 @@
       {
         "title" : "Rotator",
         "items" : [
+          "rotateFortyFive",
+          "rotateMinusFortyFive",
           "rotateNinety",
           "rotateMinusNinety",
           "rotateOneEighty",

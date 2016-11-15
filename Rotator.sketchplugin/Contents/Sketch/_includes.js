@@ -9,5 +9,4 @@ function initContext(context) {
         artboard = page.currentArtboard(),
         selection = context.selection,
         selectionCount = selection.count()
-
 }

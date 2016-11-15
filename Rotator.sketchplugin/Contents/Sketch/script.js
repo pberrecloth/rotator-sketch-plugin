@@ -1,6 +1,12 @@
 @import "_includes.js";
 
 // COMMANDS
+function rotateFortyFive (context){
+  rotatorProcessor(context, 45)
+}
+function rotateMinusFortyFive (context){
+  rotatorProcessor(context, -45)
+}
 function rotateNinety (context){
   rotatorProcessor(context, 90)
 }
