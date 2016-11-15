@@ -1,4 +1,4 @@
-# rotator-sketch-plugin
+# Rotator Sketch Plugin
 
 Rotate layers to a preset amount, or a custom amount. When assigned to a shortcut this makes things a little quicker.
 
@@ -26,7 +26,7 @@ Especially useful when assigned to a keyboard shortcut. You must do this yoursel
 - Rotate -180º
 - Rotate...
 
-Configure your shortcuts in  _Apple > Preferences > Keyboard > Shortcuts_. 
+Configure your shortcuts in  _Apple > Preferences > Keyboard > Shortcuts_.
 [How to set up Keyboard Shortcuts](http://www.sketchtips.info/articles/custom-shortcuts).
 
 ## Installation
