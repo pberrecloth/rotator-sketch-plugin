@@ -1,6 +1,6 @@
 # rotator-sketch-plugin
 
-Rotate layers at preset amounts.
+Rotate layers to preset amounts, or a custom amount. When assigned to a shortcut this makes things quicker.
 
 
 **Commands**
@@ -17,6 +17,6 @@ Especially useful when assigned to a keyboard shortcut. You must do this yoursel
 
 You can configure your own shortcuts in the normal way under _Apple > Preferences > Keyboard > Shortcuts_. [How to set up Keyboard Shortcuts](http://www.sketchtips.info/articles/custom-shortcuts).
 
-## Download and Install
+## Installation
 
-**Recommended:** [Install with Sketch Toolbox](http://sketchtoolbox.com/)
+[Install from Sketch Toolbox](http://sketchtoolbox.com/)
