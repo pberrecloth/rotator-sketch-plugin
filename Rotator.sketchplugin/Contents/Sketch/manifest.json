@@ -1,9 +1,9 @@
 {
   "name": "Rotator",
-  "description": "Rotator the selected layer",
+  "description": "Rotate the selected layers",
   "author": "Peter Berrecloth",
   "authorEmail": "peterberrecloth@gmail.com",
-  "homepage": "https://github.com/pberrecloth/fitter-sketch-plugin",
+  "homepage": "https://github.com/pberrecloth/rotator-sketch-plugin",
   "version": 1.0,
   "bundleVersion": 1.0,
   "compatibleVersion": 41,
