@@ -11,8 +11,6 @@ function initContext(context) {
         selectionCount = selection.count()
 
     }
-
-
 // COMMANDS
 function rotateNegativeNinety(context) {
   initContext(context)
@@ -30,7 +28,7 @@ function rotateAmount(context) {
 
 
 // PROCESSOR
-function rotatorProcessor(units) {
+function rotatorProcessor(context) {
     var doc = context.document
     var selection = context.selection
 
