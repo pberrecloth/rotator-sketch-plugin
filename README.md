@@ -1,11 +1,20 @@
 # rotator-sketch-plugin
 
-Rotate layers to preset amounts, or a custom amount. When assigned to a shortcut this makes things quicker.
+Rotate layers to a preset amount, or a custom amount. When assigned to a shortcut this makes things a little quicker.
+
 
 
 **Commands**
 
 ![Example](screenshots/menu.png?raw=true "Example")
+
+- Rotate 45º
+- Rotate -45º
+- Rotate 90º
+- Rotate -90º
+- Rotate 180º
+- Rotate -180º
+- Rotate...
 
 **Rotate custom amount**
 
