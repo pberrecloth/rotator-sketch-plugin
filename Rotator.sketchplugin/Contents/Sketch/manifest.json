@@ -50,7 +50,7 @@
       "script": "script.js",
       "handler": "rotateAmount",
       "identifier": "rotateAmount"
-    },
+    }
   ],
   "menu" : {
     "isRoot" : true,
@@ -65,7 +65,7 @@
           "rotateOneEighty",
           "rotateMinusOneEighty",
           "-",
-          "rotateAmount",
+          "rotateAmount"
         ]
       }
     ]
